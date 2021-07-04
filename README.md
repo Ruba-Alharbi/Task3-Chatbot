@@ -12,6 +12,14 @@ The Chatbot home interface
 <img src="chatbot_interface/chatbotInterface.png" width="300" >
 
 -------------------------------
+Helpful sources to learn
+---------------------------
+1. https://cloud.ibm.com/docs/assistant 
+2. https://watson-assistant-demo.ng.bluemix.net/?_ga=2.46491687.1608756696.1624896492-1926695582.1624896492
+3. https://www.youtube.com/watch?v=hitUOFNne14&t=1695s 
+4. https://github.com/shaimadotcom/ibm_watson_assistant/commits?author=shaimadotcom 
+
+-----------------------
 هذه المهمة هي جزء من التدريب الصيفي في شركة الأساليب الذكية
 ---------------------
 هذه المهمة هي إنشاء chatbot بواسطة IBM Watson Assistant لـ (روبوت التقييم من شركة الأساليب الذكية).
