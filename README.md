@@ -7,7 +7,9 @@ We were given the freedom to choose topics to create a chatbot, not a requiremen
 I integrated the chatbot with the HTML page that contains Control panels from task 2.
 
 --------------------------------
-<img src="chatbot_interface/chatbotInterface.png" style="width:20px;" >
+The Chatbot home interface
+------------------------------
+<img src="chatbot_interface/chatbotInterface.png" width="300" >
 
 -------------------------------
 هذه المهمة هي جزء من التدريب الصيفي في شركة الأساليب الذكية
