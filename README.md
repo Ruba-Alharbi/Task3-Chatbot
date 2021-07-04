@@ -7,6 +7,9 @@ We were given the freedom to choose topics to create a chatbot, not a requiremen
 I integrated the chatbot with the HTML page that contains Control panels from task 2.
 
 --------------------------------
+<img src="chatbot_interface/chatbotInterface.png" style="width:20px;" >
+
+-------------------------------
 هذه المهمة هي جزء من التدريب الصيفي في شركة الأساليب الذكية
 ---------------------
 هذه المهمة هي إنشاء chatbot بواسطة IBM Watson Assistant لـ (روبوت التقييم من شركة الأساليب الذكية).
