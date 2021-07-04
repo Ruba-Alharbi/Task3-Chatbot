@@ -1,0 +1,848 @@
+{
+  "intents": [
+    {
+      "intent": "design",
+      "examples": [
+        {
+          "text": "Can you show me the examples?"
+        },
+        {
+          "text": "I want to see the example again"
+        },
+        {
+          "text": "show me the design"
+        },
+        {
+          "text": "show me the web design"
+        },
+        {
+          "text": "show me the webpages design"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Good-bye",
+      "examples": [
+        {
+          "text": "bey bey"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "see you soon!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greeting",
+      "examples": [
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "wow it's helping"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Learning-source",
+      "examples": [
+        {
+          "text": "can you give me learning source"
+        },
+        {
+          "text": "I want a learning source"
+        },
+        {
+          "text": "I want resources to learn"
+        },
+        {
+          "text": "what sources do you have"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Services",
+      "examples": [
+        {
+          "text": "again please"
+        },
+        {
+          "text": "and what else?"
+        },
+        {
+          "text": "can you tell me what is it the services"
+        },
+        {
+          "text": "I'd like to know about it"
+        },
+        {
+          "text": "See how I can help"
+        },
+        {
+          "text": "what is it the Services"
+        },
+        {
+          "text": "what service do you over"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "wow it's beautiful"
+        },
+        {
+          "text": "wow it's helping"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Web",
+      "examples": [
+        {
+          "text": "how do I start to programming a website"
+        },
+        {
+          "text": "what I need to create a website"
+        },
+        {
+          "text": "what is web programming"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "bye",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bye",
+          "synonyms": [
+            "byes",
+            "callup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "css",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "css",
+          "synonyms": [
+            "CSS",
+            "stylesheet",
+            "stylesheets"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "des",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "design",
+          "synonyms": [
+            "designs",
+            "layout",
+            "models",
+            "styling"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "example",
+          "synonyms": [
+            "examples"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "help",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "can help",
+          "synonyms": [
+            "help",
+            "helping",
+            "helps"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "html",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "html",
+          "synonyms": [
+            "HTML"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "js",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "js",
+          "synonyms": [
+            "Java Script",
+            "javascript",
+            "JS"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "lang",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "css",
+          "synonyms": [
+            "CSS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "html",
+          "synonyms": [
+            "HTML"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "JS",
+          "synonyms": [
+            "Java Script",
+            "javascript",
+            "js"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "php",
+          "synonyms": [
+            "PHP"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "learn",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "learn",
+          "synonyms": [
+            "discover",
+            "discovers",
+            "explains",
+            "find",
+            "inform",
+            "instruct",
+            "learned",
+            "learns",
+            "notify",
+            "says",
+            "teach",
+            "tell"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "source",
+          "synonyms": [
+            "example",
+            "resource",
+            "resources",
+            "sources"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "php",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "php",
+          "synonyms": [
+            "PHP"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "service",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "service",
+          "synonyms": [
+            "services",
+            "you do"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "services",
+          "synonyms": [
+            "operation",
+            "operations",
+            "provisioning",
+            "servicing"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "thx",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "thanks",
+          "synonyms": [
+            "glad",
+            "grateful",
+            "loved",
+            "okay",
+            "sure",
+            "thank",
+            "thanked",
+            "thankful",
+            "thanking"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "web",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "web",
+          "synonyms": [
+            "online",
+            "software",
+            "webpage",
+            "webpages",
+            "website",
+            "websites"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "welcome",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "start over",
+          "synonyms": [
+            "begin agin",
+            "start again"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "you",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "you",
+          "synonyms": [
+            "introduce",
+            "who"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1625165880125",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "My-services",
+      "output": {
+        "generic": [
+          {
+            "title": "My Services",
+            "options": [
+              {
+                "label": "Introduce you to web programming ",
+                "value": {
+                  "input": {
+                    "text": "web"
+                  }
+                }
+              },
+              {
+                "label": "Giving you learning sources",
+                "value": {
+                  "input": {
+                    "text": "source"
+                  }
+                }
+              },
+              {
+                "label": "Showing you impressive website design",
+                "value": {
+                  "input": {
+                    "text": "design"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Services || @service || @help",
+      "dialog_node": "node_10_1625144179993",
+      "previous_sibling": "node_5_1625144020551"
+    },
+    {
+      "type": "standard",
+      "title": "source",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I've some sources to help you get started with a fun learning☻"
+              },
+              {
+                "text": "First one,  W3shcools>>https://www.w3schools.com "
+              },
+              {
+                "text": "Second one, Harmash>> //harmash.com/home/"
+              },
+              {
+                "text": "And this one you can find a lot of courses to take, Coursera>> https://www.coursera.org/learn/website-coding "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Learning-source || @learn",
+      "dialog_node": "node_10_1625144715281",
+      "previous_sibling": "node_10_1625144179993"
+    },
+    {
+      "type": "standard",
+      "title": "php",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PHP is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625145528291",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625145528291"
+      },
+      "conditions": "@php",
+      "dialog_node": "node_2_1625145686293",
+      "previous_sibling": "node_6_1625145680606"
+    },
+    {
+      "type": "standard",
+      "title": "bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              },
+              {
+                "text": "Bye-Bye, I'll be happy to help you again :)"
+              },
+              {
+                "text": "bye, nice talking to you:)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Good-bye && @bye",
+      "dialog_node": "node_3_1625165880125",
+      "previous_sibling": "node_5_1625146414262"
+    },
+    {
+      "type": "standard",
+      "title": "Thanking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My pleasure :)"
+              },
+              {
+                "text": "Any time :)"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Thanks || @thx",
+      "dialog_node": "node_5_1625144020551",
+      "previous_sibling": "node_8_1625143893930"
+    },
+    {
+      "type": "standard",
+      "title": "css",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CSS short for Cascading Style Sheet is a web page formatting language that takes care of the look and design of websites."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625145528291",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625145528291"
+      },
+      "conditions": "@css",
+      "dialog_node": "node_5_1625145677088",
+      "previous_sibling": "node_8_1625145672767"
+    },
+    {
+      "type": "standard",
+      "title": "design",
+      "output": {
+        "generic": [
+          {
+            "source": "https://mbcreative.ca/blog/wp-content/uploads/2020/03/mail_service_landing_page_tubik_4x.png",
+            "response_type": "image"
+          },
+          {
+            "source": "https://mbcreative.ca/blog/wp-content/uploads/2020/03/smartmap-landing_page_design_tubik_4x.png",
+            "response_type": "image"
+          },
+          {
+            "source": "https://uxengineer.com/wp-content/uploads/2018/06/adhamdannaway-e1528030214477.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "@des || #design",
+      "dialog_node": "node_5_1625146414262",
+      "previous_sibling": "node_8_1625145382217"
+    },
+    {
+      "type": "standard",
+      "title": "lang",
+      "output": {
+        "generic": [
+          {
+            "title": "Web programming languages ",
+            "options": [
+              {
+                "label": "HTML",
+                "value": {
+                  "input": {
+                    "text": "html"
+                  }
+                }
+              },
+              {
+                "label": "CSS",
+                "value": {
+                  "input": {
+                    "text": "css"
+                  }
+                }
+              },
+              {
+                "label": "JavaScript",
+                "value": {
+                  "input": {
+                    "text": "js"
+                  }
+                }
+              },
+              {
+                "label": "PHP",
+                "value": {
+                  "input": {
+                    "text": "php"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1625145382217",
+      "conditions": "@lang || @lang",
+      "dialog_node": "node_6_1625145528291"
+    },
+    {
+      "type": "standard",
+      "title": "js",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "JavaScript is used on most websites and is the backbone of any modern web page - along with HTML and CSS."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625145528291",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625145528291"
+      },
+      "conditions": "@js",
+      "dialog_node": "node_6_1625145680606",
+      "previous_sibling": "node_5_1625145677088"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello"
+              },
+              {
+                "text": "Welcome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Greeting",
+      "dialog_node": "node_8_1625143893930",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "web",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Web programming refers to the writing, markup, and coding involved in Web development, which includes Web content, Web client and server scripting, and network security."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625145528291"
+      },
+      "conditions": "#Web || @web",
+      "dialog_node": "node_8_1625145382217",
+      "previous_sibling": "node_10_1625144715281"
+    },
+    {
+      "type": "standard",
+      "title": "html",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HTML is the main structure and infrastructure for web pages. HTML is one of the oldest and most widely used languages ​​in creating web pages."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625145528291",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625145528291"
+      },
+      "conditions": "@html",
+      "dialog_node": "node_8_1625145672767"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I'm Ron I'm a web programming lover, so because of that, I provide you these services..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1625144179993"
+      },
+      "conditions": "welcome || @you || @welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Web programming",
+  "language": "en",
+  "description": ""
+}
