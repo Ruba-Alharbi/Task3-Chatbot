@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Robot Base Control</title>
+<style>
+  body{
+    width: 100%;
+    background-color:  #EEEEEC;
+  }  
+  /* To set the img right */
+#right {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
+    button{
+    display: flex;
+    background-color: #11819dc5 ;
+    border: 2px ;
+    width: 60%;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    position:static;
+    border-radius: 8px;
+    font-size: 25px;
+    color: #B31D3F;
+}
+.container { 
+    height: 400px;
+    position:relative;
+    
+  } 
+  .center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a{
+    color: #B31D3F;
+  }
+</style>
+  </head>
+  <body>
+     <img id= "right" alt= "Logo"  src="logo.png" style="height:70px; margin-bottom:40px"> 
+     <br> <br>    <br> <br>
+
+     <div class="container"> 
+
+        <div class="center">
+          <center> 
+            <Button> <a href="robotArm.html"> Robot Arm Control Penal  لوحة تحكم بذراع الروبوت  </a>  </Button>
+            <Button> <a href="baseControl.html">  Robot Base Control Penal لوحة تحكم بقاعدة الروبوت  </a> </Button>
+          </center>
+     </div>
+     </div>
+
+<!-- Chatbot Script -->
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "8c431e72-219d-4eee-bd5e-576d3cca4f88", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "eb4b76a8-30e7-4981-9049-050ef7af89cb", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+     </body>
+     </html>
