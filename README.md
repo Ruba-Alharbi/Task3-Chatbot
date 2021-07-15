@@ -9,8 +9,8 @@ I integrated the chatbot with the HTML page that contains Control panels from ta
 --------------------------------
 The Chatbot home interface
 ------------------------------
-<img src="chatbot_interface/chatbotInterface.png" width="300" >
-
+<img src="chatbot_interface/web_chatbot1.png" width="300" >
+<img src="chatbot_interface/web_chatbot2.png" width="300" >
 -------------------------------
 Helpful sources to learn
 ---------------------------
